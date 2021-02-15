@@ -1,2 +1,2 @@
-# Contador
- Contador básico que fiz em tempo Livre
+# Basic counter
+ Basic counter I did in free time to train CSS and a little Vue.js
