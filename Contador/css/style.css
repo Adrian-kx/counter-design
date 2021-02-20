@@ -37,6 +37,7 @@ body {
 }
 
 .buttons {
+    
     display: grid;
     grid-template-columns: repeat(2, 50%);
     grid-template-rows: 1fr   25px 25px 25px;
@@ -44,6 +45,7 @@ body {
 
 
 .button {
+    font-size: 1.1em;
     background-color: rgba(0, 0, 0, 0.446);
     color: white;
     padding: auto 5px; 
@@ -57,4 +59,7 @@ body {
 }
 .button:active{
     background-color: rgba(0, 0, 0, 0.7);
+}
+.button:focus{
+    outline: 0;
 }
